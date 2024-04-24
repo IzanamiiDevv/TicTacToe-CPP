@@ -1,14 +1,15 @@
 //Global Header
 #include <iostream>
 #include <ctime>
+#include <string>
 
 //Local Header
 #include "./includes/logic.h"
 
-using column = std::string;
+using column = char;
 
 int main() {
-    column spaces[9] = {"","","","","","","","",""};
+    column spaces[9] = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
     char player = 'X';
     char computer = 'O';
     bool running = true;

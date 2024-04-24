@@ -1,1 +1,1 @@
-gcc program.cpp src/logic.cpp -o bin/Program
+g++ program.cpp src/logic.cpp -o Program -lstdc++
