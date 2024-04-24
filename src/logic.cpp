@@ -47,6 +47,36 @@ namespace Logic {
         }
     };
     bool checkWinner(char *spaces, char player,char computer){
+        int possibleOutCome[8][3] = {
+            //horizontal
+            {0,1,2},
+            {3,4,5},
+            {6,7,8},
+
+            //vertical
+            {0,3,6},
+            {1,4,7},
+            {2,5,8},
+
+            //diagonal
+            {0,4,8},
+            {2,4,6}
+        };
+
+        for (int i = 0; i < 8; i++) {
+            int a = possibleOutCome[i][0];
+            int b = possibleOutCome[i][1];
+            int c = possibleOutCome[i][2];
+            if (spaces[a] != ' ' && spaces[a] && spaces[a] == spaces[b] && spaces[a] == spaces[c]) {
+                if(spaces[a] == player){
+                    std::cout << "Player Won!" << std::endl;
+                }else {
+                    std::cout << "Computer Won!" << std::endl;
+                }
+                return true;
+            }
+        } 
+
         return false;
     };
     bool checkTie(char *spaces){
