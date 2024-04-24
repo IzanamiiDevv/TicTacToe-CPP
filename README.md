@@ -19,7 +19,7 @@ To run the game, you will need a C++ compiler installed on your system.
 
 ## Download
 
-
+You can download the Build Program by clicking [Downloads](https://github.com/IzanamiiDevv/TicTacToe-CPP/releases/tag/v1.0)
 
 ## How to Play
 
