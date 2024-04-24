@@ -1,9 +1,9 @@
 #pragma once
 
 namespace Logic {
-    void drawBoard(char *spaces);
-    void playerMove(char *spaces, char player);
-    void computerMove(char *spaces, char computer);
-    bool checkWinner(char *spaces, char player,char computer);
-    bool checkTie(char *spaces);
+    void drawBoard(std::string *spaces);
+    void playerMove(std::string *spaces, char player);
+    void computerMove(std::string *spaces, char computer);
+    bool checkWinner(std::string *spaces, char player,char computer);
+    bool checkTie(std::string *spaces);
 }
