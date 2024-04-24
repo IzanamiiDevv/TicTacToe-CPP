@@ -10,8 +10,14 @@ using column = char;
 
 int main() {
     column spaces[9] = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
-    char player = 'X';
-    char computer = 'O';
+    char player;
+
+    do{
+        std::cout << "Select a Character" << '\n';
+        std::cin >> player;
+    }while(!(player == 'X' || player == 'O'));
+
+    char computer = player == 'X' ? 'O':'X';
     bool running = true;
 
     Logic::drawBoard(spaces);
