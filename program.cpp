@@ -2,6 +2,7 @@
 #include <iostream>
 #include <ctime>
 #include <string>
+#include <vector>
 
 //Local Header
 #include "./includes/logic.h"
@@ -9,6 +10,7 @@
 using column = char;
 
 int main() {
+    
     column spaces[9] = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
     char player;
 
@@ -46,5 +48,6 @@ int main() {
         }
     }
     std::cout << "Thanks for playing!\n";
+
     return 0;
 }
