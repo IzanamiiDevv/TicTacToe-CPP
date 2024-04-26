@@ -25,7 +25,7 @@ You can download the Build Program by clicking [Downloads](https://github.com/Iz
 
 - The game starts with an empty 3x3 grid.
 - Players take turns entering the coordinates of their move (row and column).
-- The coordinates are 1-indexed, so valid inputs are in the range [1 9].
+- The coordinates are 1-indexed, so valid inputs are in the range [1-9].
 - The game continues until one player wins or the board is full (resulting in a draw).
 
 ## Rules
