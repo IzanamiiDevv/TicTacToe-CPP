@@ -1,6 +1,5 @@
 # TicTacToe-CPP
 
-
 This is a simple implementation of the classic Tic-Tac-Toe game in C++ for console. It allows two players to play against each other on a 3x3 grid.
 
 ## Features
